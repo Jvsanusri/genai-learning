@@ -1,0 +1,32 @@
+SAP Cloud Infrastructure Runbook
+
+1. KUBERNETES CLUSTER ACCESS
+To access the dev-stage cluster, run the kubeconfig script:
+~/.kube/kubeconfig-gen-scidev.sh
+The cluster has 12 nodes running Kubernetes version 1.32.9
+
+2. ARGOCD ACCESS
+ArgoCD manages all application deployments.
+To sync an application, go to ArgoCD UI and click "Sync".
+If sync fails, check the application logs for errors.
+
+3. COMMON ISSUES AND FIXES
+Issue: Pod in CrashLoopBackOff
+Fix: Check pod logs using kubectl logs <pod-name>
+
+Issue: MySQL connection failed  
+Fix: Check if the load balancer weight is set correctly.
+Secondary nodes should have weight 0.
+
+Issue: Vault token expired
+Fix: Refresh the vault token using the vault login command.
+
+4. TEAM CONTACTS
+Infrastructure Lead: Anuradha
+DevOps Team: Available on Slack #devops-team
+On-call rotation: Check PagerDuty for current on-call engineer
+
+5. ENVIRONMENT URLS
+Dev Stage: successfactors.sci.scs.sap
+Production: successfactor.sci.scs.sap
+ArgoCD UI: argocd.sci.scs.sap
