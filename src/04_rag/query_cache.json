@@ -1,0 +1,30 @@
+{
+  "b0f05c88dce3bfb7976dbb9d393c814e": {
+    "query": "What is the ArgoCD UI URL for SCI dev?",
+    "answer": "For SCI dev, the ArgoCD UI URL typically is: https://argocd-sci-dev.sv.sap.corp.",
+    "token_estimate": 19,
+    "model_used": "fast",
+    "cached_at": "2026-06-19 10:26:08"
+  },
+  "7c5af8308f35ceefe8b7cf1c56a08975": {
+    "query": "How do I fix a CrashLoopBackOff pod?",
+    "answer": "To fix a CrashLoopBackOff pod, check the pod's logs using `kubectl logs` to identify the root cause of the crash. Then, update the pod's configuration or image as needed to resolve the issue. Restart the pod using `kubectl rollout restart` to apply the changes.",
+    "token_estimate": 51,
+    "model_used": "powerful",
+    "cached_at": "2026-06-19 10:26:09"
+  },
+  "55c803134ae8ea838b8bb23a0d045f15": {
+    "query": "Who is the on-call engineer?",
+    "answer": "The on-call engineer for today is Rohan, and their contact information is available in the internal wiki under \"DevOps On-Call Schedule\".",
+    "token_estimate": 26,
+    "model_used": "fast",
+    "cached_at": "2026-06-19 10:26:09"
+  },
+  "ed10e731af9d989ca0a4b26ac7f3db63": {
+    "query": "How do I troubleshoot MySQL replica lag?",
+    "answer": "To troubleshoot MySQL replica lag, check the replica status using `SHOW SLAVE STATUS` command. Identify the cause of lag by analyzing the `Seconds_Behind_Master` and `Last_IO_Errno` fields. Additionally, use `pt-heartbeat` tool to monitor replica lag and `mysqld` logs for error messages.",
+    "token_estimate": 47,
+    "model_used": "powerful",
+    "cached_at": "2026-06-19 10:26:10"
+  }
+}
