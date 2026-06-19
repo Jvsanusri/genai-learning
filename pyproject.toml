@@ -14,5 +14,6 @@ dependencies = [
     "langchain-groq>=1.1.3",
     "langchain-text-splitters>=1.1.2",
     "python-dotenv>=1.2.2",
+    "rank-bm25>=0.2.2",
     "uvicorn>=0.49.0",
 ]
