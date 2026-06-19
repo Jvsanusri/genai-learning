@@ -1,0 +1,17 @@
+{
+  "engineer": {},
+  "team_preferences": [
+    "Team prefers JIRA for incident tracking over email",
+    "On-call engineer is Prabhakar Aluri",
+    "Slack channel for alerts: #sci-devops-alerts"
+  ],
+  "incident_history": [
+    "2026-06-19: Pod bizx-car CrashLoopBackOff - Vault token expired",
+    "2026-06-18: MySQL replica receiving write traffic - LB misconfiguration"
+  ],
+  "known_facts": [
+    "Engineer name: Anuradha, works at Aarna Technologies on SAP SCI",
+    "Managing SAP SuccessFactors HCM with 60+ microservices on Gardener K8s",
+    "Production environments: SCI Dev and SCI Prod both active"
+  ]
+}
